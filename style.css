@@ -120,7 +120,7 @@ small {
 /* MEDIA QUERIES FOR SHORT SCREENS*/
 @media (max-height: 680px) {
   .word_background--title {
-    min-height: 200px;
+    min-height: 100px;
   }
   .word_container {
     height: 70%;
@@ -173,9 +173,9 @@ small {
 @media (max-width: 1150px) {
   .word_container {
     height: 74vh;
-    width: 100vw;
+    width: 90vw;
     text-align: center;
-    border-radius: 0%;
+    /* border-radius: 0%; */
   }
   small {
     margin-top: auto;
@@ -228,10 +228,11 @@ small {
 @media (max-width: 460px) {
   .word_background--title {
     font-size: 1.1rem;
-    max-height: 200px;
+    max-height: 100px;
   }
   .analytics {
     flex: 1 160px;
+    border-radius: 0%;
   }
   .word_facebook {
     border-top: none;
@@ -240,9 +241,23 @@ small {
   .word_characters {
     border-left: 1px solid #18216f1e;
   }
+  .word_container {
+    margin-top: 100px;
+    height: 80%;
+    border-radius: 0%;
+  }
+  .word_text{
+    font-size: 1rem;
+  }
+  .word_title{
+    font-size: .7rem;
+  }
+  .counter{
+    font-size: 1.5rem;
+  }
 }
 @media (max-width: 460px) and (min-height: 700px) {
   .word_container {
-    height: 80vh;
+    height: 85vh;
   }
 }
