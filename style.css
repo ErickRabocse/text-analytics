@@ -259,7 +259,6 @@ small {
   }
   .word_text {
     font-size: 1rem;
-    background-color: purple;
     flex: 3;
     border-radius: 0%;
   }
