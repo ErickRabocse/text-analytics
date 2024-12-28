@@ -230,13 +230,18 @@ small {
   body {
     height: -webkit-fill-available;
   }
+  .word_parent {
+    width: 100vw;
+    height: 100vh;
+    height: -webkit-fill-available;
+  }
   .word_container {
     margin-top: 100px;
     margin-bottom: 20px;
     border-radius: 0%;
     width: 100vw;
     height: 100vh;
-    height: -webkit-fill-available;
+    /* height: -webkit-fill-available; */
   }
   .word_background--title {
     font-size: 1.1rem;
