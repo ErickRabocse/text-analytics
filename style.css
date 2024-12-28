@@ -135,6 +135,16 @@ small {
   .analytics {
     flex: 1 200px;
   }
+  .word_facebook {
+    border-top: 1px solid #18216f1e;
+    border-left: none;
+  }
+  .word_characters {
+    border-left: none;
+  }
+  .word_words {
+    border-top-right-radius: 10px;
+  }
 }
 /* MEDIA QUERIES FOR TALL SCREENS*/
 @media (min-height: 800px) {
@@ -227,7 +237,7 @@ small {
     border-top: none;
     border-left: 1px solid #18216f1e;
   }
-  .word_characters{
+  .word_characters {
     border-left: 1px solid #18216f1e;
   }
 }
