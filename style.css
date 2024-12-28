@@ -171,11 +171,6 @@ small {
 }
 /* MEDIA QUERIES FOR NARROW SCREENS*/
 @media (max-width: 1150px) {
-  html,
-  body,
-  .word_parent {
-    height: -webkit-fill-available;
-  }
   .word_container {
     height: 74vh;
     width: 90vw;
@@ -231,6 +226,13 @@ small {
   }
 }
 @media (max-width: 460px) {
+  html,
+  body {
+    height: -webkit-fill-available;
+  }
+  .word_parent {
+    height: 100%;
+  }
   .word_background--title {
     font-size: 1.1rem;
     max-height: 100px;
