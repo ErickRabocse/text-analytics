@@ -227,11 +227,14 @@ small {
 }
 @media (max-width: 460px) {
   html,
-  body,
-  .word_parent {
+  body {
     height: -webkit-fill-available;
   }
-
+  .word_container {
+    height: 74vh;
+    width: 90vw;
+    height: -webkit-fill-available;
+  }
   .word_background--title {
     font-size: 1.1rem;
     max-height: 100px;
