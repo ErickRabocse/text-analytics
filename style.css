@@ -240,8 +240,8 @@ small {
     margin-bottom: 20px;
     border-radius: 0%;
     width: 100vw;
-    height: 70vh;
-    /* height: -webkit-fill-available; */
+    height: 80vh;
+    height: -webkit-fill-available;
   }
   .word_background--title {
     font-size: 1.1rem;
@@ -261,7 +261,7 @@ small {
 
   .word_text {
     font-size: 1rem;
-    background-color: yellowgreen;
+    background-color: yellow;
   }
   .word_title {
     font-size: 0.7rem;
