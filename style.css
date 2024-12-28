@@ -240,7 +240,7 @@ small {
     margin-bottom: 20px;
     border-radius: 0%;
     width: 100vw;
-    height: 80vh;
+    height: 70vh;
     /* height: -webkit-fill-available; */
   }
   .word_background--title {
@@ -260,7 +260,7 @@ small {
   }
   .word_text {
     font-size: 1rem;
-    background-color: pink;
+    background-color: blue;
     flex: 3;
     border-radius: 0%;
   }
