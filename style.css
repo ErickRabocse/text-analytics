@@ -171,6 +171,11 @@ small {
 }
 /* MEDIA QUERIES FOR NARROW SCREENS*/
 @media (max-width: 1150px) {
+  html,
+  body,
+  .word_parent {
+    height: -webkit-fill-available;
+  }
   .word_container {
     height: 74vh;
     width: 90vw;
@@ -246,13 +251,13 @@ small {
     height: 80%;
     border-radius: 0%;
   }
-  .word_text{
+  .word_text {
     font-size: 1rem;
   }
-  .word_title{
-    font-size: .7rem;
+  .word_title {
+    font-size: 0.7rem;
   }
-  .counter{
+  .counter {
     font-size: 1.5rem;
   }
 }
