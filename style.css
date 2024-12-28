@@ -175,12 +175,10 @@ small {
     height: 74vh;
     width: 90vw;
     text-align: center;
-    /* border-radius: 0%; */
   }
   small {
     margin-top: auto;
     padding: 0 0 3px 0;
-    /* padding: 0 10px 10px; */
     color: #747a7c;
     opacity: 0.8;
     font-size: 0.6rem;
@@ -227,7 +225,8 @@ small {
 }
 @media (max-width: 460px) {
   html,
-  body {
+  body,
+  .word_background {
     height: -webkit-fill-available;
   }
   .word_parent {
@@ -260,7 +259,7 @@ small {
   }
   .word_text {
     font-size: 1rem;
-    background-color: blue;
+    background-color: purple;
     flex: 3;
     border-radius: 0%;
   }
