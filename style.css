@@ -241,7 +241,7 @@ small {
     border-radius: 0%;
     width: 100vw;
     height: 80vh;
-    height: -webkit-fill-available;
+    /* height: -webkit-fill-available; */
   }
   .word_background--title {
     font-size: 1.1rem;
@@ -258,10 +258,14 @@ small {
   .word_characters {
     border-left: 1px solid #18216f1e;
   }
-
   .word_text {
     font-size: 1rem;
-    background-color: yellow;
+    background-color: pink;
+    flex: 3;
+    border-radius: 0%;
+  }
+  .word_analytics {
+    flex: 1;
   }
   .word_title {
     font-size: 0.7rem;
