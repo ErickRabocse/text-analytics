@@ -117,6 +117,9 @@ small {
   color: #747a7c;
   letter-spacing: 1.5px;
 }
+.limit {
+  color: red;
+}
 
 /* MEDIA QUERIES FOR SHORT SCREENS*/
 @media (max-height: 680px) {
