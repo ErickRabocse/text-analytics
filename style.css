@@ -63,6 +63,7 @@ small {
   display: flex;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  overflow: hidden;
 }
 .word_text {
   display: flex;
@@ -255,7 +256,7 @@ small {
     margin-bottom: 20px;
     border-radius: 0%;
     width: 100vw;
-    height: 70vh;
+    height: 80vh;
     /* height: -webkit-fill-available; */
   }
   .word_background--title {
